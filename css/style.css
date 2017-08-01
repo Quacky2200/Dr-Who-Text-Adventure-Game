@@ -1,0 +1,84 @@
+body, html {width: 100%; height: 100%; margin: 0; padding: 0;}
+body { background: black; color: lime;padding: 1em; margin: 0; box-sizing: border-box; font-family: monospace; font-size: 1.1em;overflow: hidden;}
+pre {white-space: pre-wrap;}
+.doctorwho {color: #39abd0;}
+.terminal {color: lime;}
+.commandline {color: gray;}
+#intro {
+	position: absolute;
+	top: 0;
+	width: calc(100% - 2em);
+    height: 100%;
+	animation-name: intro;
+    animation-duration: 15s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+#intro div{
+	height: 100%;
+	width:100%;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+#intro > div > div {
+	display: table;
+}
+#intro > div > div > pre {
+	display: table-cell;
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	vertical-align: middle;
+}
+@keyframes intro {
+	0% {
+		top: 0;
+		color: #39abd0;
+		opacity: 1;
+	}
+	5% {
+		top: 0;
+		color: #2f4e67;
+		opacity: 0.8;
+	}
+	10% {
+		top: 0;
+		color: #39abd0;
+		opacity: 1;
+	}
+	15% {
+		top: 0;
+		color: #2f4e67;
+		opacity: 0.8;
+	}
+	20% {
+		top: 0;
+		color: #39abd0;
+		opacity: 1;
+	}
+	45% {
+		top: -100%;
+		color: #39abd0;
+	}
+	65% {
+		top: -100%;
+		color: #cc0b3f;
+		opacity: 1;
+	}
+	95% {
+		top: -100%;
+		color: gray;
+		opacity: 0;
+	}
+	96% {
+		top: -200%;
+		color: gray;
+		opacity: 0;
+	}
+	100% {
+		top: -200%;
+		color: gray;
+		opacity: 1;
+	}
+}
