@@ -1,5 +1,5 @@
-body, html {width: 100%; height: 100%; margin: 0; padding: 0;}
-body { background: black; color: lime;padding: 1em; margin: 0; box-sizing: border-box; font-family: monospace; font-size: 1.1em;overflow: hidden;}
+body, html {width: 100%; margin: 0; padding: 0;}
+body {background: black; color: lime;padding: 1em; margin: 0; box-sizing: border-box; font-family: monospace; font-size: 1.25em;overflow: hidden;-webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
 pre {white-space: pre-wrap;}
 .doctorwho {color: #39abd0;}
 .terminal {color: lime;}
@@ -30,6 +30,71 @@ pre {white-space: pre-wrap;}
 	text-align: center;
 	width: 100%;
 	vertical-align: middle;
+}
+span.cursor {
+	animation: flashcursor 1s infinite;
+	animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+b[alt-data*='animate'] span:last-child{
+	display:inline-block;
+	animation: boldAppear 150ms;
+	animation-fill-mode: forwards;
+	-webkit-transform: translateZ(0px);
+	transform-origin: center center;
+}
+i,b, i span, b span {display: inline-block;transition: all 500ms linear;}
+i[alt-data*='animate'] span:last-child{
+	display: inline-block;
+	animation: italicAppear 150ms;
+	animation-fill-mode: forwards;
+	-webkit-transform: translateZ(0px);
+	transform-origin: center center;
+}
+@keyframes italicAppear {
+	0% {
+		color: rgba(0, 0, 0, 0.0);
+		transform: translate(-100%, 0);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes boldAppear {
+	0% {
+		transform: scale(2, 2);
+		padding: 0 0.5em;
+		color: red;
+	}
+	100% {
+		transform: scale(1, 1);
+		padding: 0em;
+	}
+}
+@keyframes flashcursor {
+	0% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 @keyframes intro {
 	0% {
@@ -79,6 +144,6 @@ pre {white-space: pre-wrap;}
 	100% {
 		top: -200%;
 		color: gray;
-		opacity: 1;
+		opacity: 0;
 	}
 }

@@ -1,0 +1,20 @@
+Changes:
+- Add require JSON functionality
+- Change layout of modules
+- Add help menu
+- Add stabilisation to Edge and Firefox
+- Prevent letter sound spam on hold
+- Added optional skip button
+- Add element formatting on type (e.g. allows for actor highlighting, bold text, italic text)
+- Added bold and italic animations for emphasis during type
+- Added actor highlights
+- Added suggestions parameter during tab keypress during input
+
+
+On the List:
+Add more storyline
+Add room objects and navigation
+Add text-adventure engine
+Add inventory
+Add characters and conversations
+Add more cut-scenes

@@ -4,22 +4,22 @@
 
 The Doctor is on his knees, bending backwards in anger shouting...
 
-Doctor: NOOOOOOOOOOOOOOO!
+<span style='color: white;'>Doctor: <b>NOOOOOOOOOOOOOOO</b>!</span>
 
 He shoves his glowing fists into the snow hoping to stop regenerating. He feels unsteady and gasps as his hands freeze in the cold ice-white snow...
 
-Doctor: I will not change!
+<span style='color: white;'>Doctor: I will <b>not</b> change!</span>
 
 He raises his hands, inspecting the glow disappearing from his hands; feeling his palms...
 
-...: I will not change. I will not! No, no, no, no, no, no. The whole thing's rediculous.
+<span style='color: orange;'>...: I will not change. I will not! <i>No, no, no, no, no, no.</i> The whole thing's ridiculous.</span>
 
-Doctor: Hello? Is someone there?
+<span style='color: white;'>Doctor: Hello? Is someone there?</span>
 
-...: Who's that?
+<span style='color: orange;'>...: Who's that?</span>
 
-Doctor: I'm the Doctor.
+<span style='color: white;'>Doctor: I'm the Doctor.</span>
 
-...: The Doctor. No, I don't think so! No, dear me no. You may be a doctor, but I am The Doctor. The original, you might say...
+<span style='color: orange;'>...: The Doctor. No, I don't think so! <b>No</b>, dear me no. You may be <i>a</i> doctor, but I am <i>The Doctor</i>. The original, <i>you might say</i>...</span>
 
 (Main Title Open)
